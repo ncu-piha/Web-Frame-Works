@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(62, 114, 232);
+    width: 100%;
+    height: 8.75vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.logo{
+    width: 18.5%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.exploreLogo{
+    height: 100%;
+}
+.searchbox{
+    width: 34.7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.searchbox input[type=text], form{
+    width: 100%;
+    height: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 1px;
+    /* letter-spacing: -0.1px; */
+}
+.searchbox ::placeholder{
+    font-size: 14px;
+    padding-left: 15px;
+}
+.searchbox button{
+    height: 80%;
+    width: 11%;
+    background: white;
+    border: none;
+    font-size: 1.15em;
+    color: #2874f0;
+    border-radius: 1px;
+}
+.login{
+    width: 8.5%;
+    height: 53%;
+    margin-left: 22px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2874f0;
+    font-size: 15px;
+}
+.links{
+    margin-left: 40px;
+    width: 21.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+}
+.more{
+    display: flex;
+}
+.dropdown{
+    margin-left: 5px;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.dropdown:hover{
+    transform: rotate(-180deg);
+    transition-duration: 0.3s;
+}
+
+/*-----------------------------------------SECONDARY LINKS-----------------------------------------*/
+
+.secContainer{
+    width: 100%;
+    height: 18vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.secLinks{
+    width: 88%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.secText{
+    font-size: 15px;
+    font-weight: 500;
+}
+.neecheButton{
+    width: 20%;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secPhoto{
+    width: 60%;
+    height: 70%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secPhoto img{
+    width: 60%;
+    height: 60%;
+}
+
+
+
+#menu{
+    background-color: white;
+    height: 15vh;
+    width: 100%;
+    margin-top: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.menupics{
+    height: 9vh;
+    width: 7vh;
+}
+.menucards{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.5vw;
+}
+
+.menulabels{
+    margin-top: 0.8vh;
+    font-weight: 600;
+    font-size: 80%;
+    opacity: 0.8;
+    text-align: center;
+}
+#pic3{
+    width: 5vw;
+}
+#pic4{
+    width: 5vw;
+}
+#pic5{
+    margin-left: 2vw;
+}
+#pic6{
+    margin-left: 0.5vw;
+}
+#pic7{
+    width: 5.4vw;
+}
+#pic8{
+    width: 5vw;
+}
+#pic9{
+    margin-left: 28px;
+}
+#pic10{
+    width: 5vw;
+    margin-left: 10px;
+}
+#deals{
+    display: flex;
+    flex-direction: row;
+    height: 38vh;
+    width: 99%;
+    margin-top: 3vh;
+    background-color: white;
+}
+.deal{
+    width: 100%;
+}
+.shelf{
+    width: 99%;
+    height: 48vh;
+    margin-top: 2vh;
+    background-color: white;    
+    display: flex;
+    flex-direction: row;
+}
+.foot{
+    background-color: white;
+    height: 103vh;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+}
+.headin{
+    margin-left: 2vw;
+    margin-top: 7vh;
+}
+.content{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 3vh;
+    font-size: small;
+    opacity: 0.7;
+    word-spacing: 2px;
+}
+.poster{
+    height: 48vh;
+}
+.electronics{
+    height: 30vh;
+    width: 13vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+.item{
+    text-align: center;
+    font-weight: 600;
+}
+.description{
+    margin-top: 2vh;
+}
+.price{
+    margin-top: 1vh;
+    color: green;
+}
+.comp{
+    z-index: -1;
+    opacity: 0.6;
+    margin-top: 1vh;
+}
+.aboutus{
+    height: 47vh;
+    background-color: #172337;
+    display: flex;
+    flex-direction: column;
+}
+.aboutcontactus{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.about{
+    font-size: small;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 57.5vw;
+    margin-top: 5.7vh;
+}
+.abt{
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    font-size: smaller;
+    margin-left: 5vw;
+}
+#hr2{
+    color: yellow;
+    margin-top: 12vh;
+}
+#hr1{
+    margin-top: 5.5vh;
+    opacity: 0.2;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.7vh;
+    font-size: small;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.7vh;
+    font-size: small;
+    color: white;
+    /* width: 50%; */
+}
+.cont{
+    flex-direction: column;
+    margin-left: 3vw;
+    width: 14vw;
+}
+#mail{
+    margin-top: 1.7vh;
+}
+#foothead{
+    opacity: 0.5;
+}
+.footend{
+    display: flex;
+    color: white;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.submenu{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: left;
+    display: none;
+}
+#fashion:hover {
+    display: red;
+}
+.previous{
+    position: absolute;
+    color: white;
+    height: 12vh;
+    width: 3vw;
+    background-color: white;
+    margin-top: 14vh;
+    border-radius: 0% 15% 15% 0%;
+}
+.next{
+    position: absolute;
+    color: white;
+    height: 12vh;
+    width: 3vw;
+    background-color: white;
+    margin-top: 14vh;
+    margin-left: 95vw;
+    border-radius: 15% 0% 0% 15%;
+}
+.sliderControls{
+    height: 2vh;
+    margin-top: 5vh;
+    margin-left: 0.9vw;
+}
+.footerIcons{
+    height: 2vh;
+    margin-right: 0.7vw;
+}
+.footerElements{
+    display: flex;
+    flex-direction: row;
+}
+.headerIcons{
+    height: 2.5vh;
+    margin-right: 0.5vw;
+}
